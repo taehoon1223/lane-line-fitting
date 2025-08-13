@@ -71,7 +71,7 @@ lane-line-fitting/
 - [ ] 카메라 토픽 이름 확인(`/camera/rgb/image_raw`)
 - [ ] 스크립트에 실행 권한 부여: `chmod +x lane_detector_node_2022080.py`
 - [ ] 패키지명 확인 후 `lane_estimator.launch`의 `pkg` 수정
-```
+
 
 ## 📷 직선 구간 예시
 
