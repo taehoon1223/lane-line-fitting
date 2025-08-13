@@ -71,3 +71,14 @@ lane-line-fitting/
 - [ ] 카메라 토픽 이름 확인(`/camera/rgb/image_raw`)
 - [ ] 스크립트에 실행 권한 부여: `chmod +x lane_detector_node_2022080.py`
 - [ ] 패키지명 확인 후 `lane_estimator.launch`의 `pkg` 수정
+```
+
+## 📷 직선 구간 예시
+
+| 카메라 원본 | 차선 마스크 (노란색) | 차선 마스크 (흰색) |
+|-------------|----------------------|--------------------|
+| ![원본](images/straight_original.png) | ![노란차선](images/straight_mask_yellow.png) | ![흰차선](images/straight_mask_white.png) |
+
+| Bird Eye View 변환 | Bird Eye View 차선 인식 |
+|--------------------|-------------------------|
+| ![BEV](images/straight_bev.png) | ![BEV 인식](images/straight_bev_detect.png) |
