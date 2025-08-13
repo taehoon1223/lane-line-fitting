@@ -1,0 +1,11 @@
+<launch>
+  <!--
+    This launch uses the existing script name from this repo.
+    Make sure the script is executable: chmod +x lane_detector_node_2022080.py
+    And ensure this file lives in a catkin package (e.g., remocar_lane_fitting/scripts).
+  -->
+  <node name="lane_estimator_node"
+        pkg="remocar_lane_fitting"
+        type="lane_detector_node_2022080.py"
+        output="screen" />
+</launch>

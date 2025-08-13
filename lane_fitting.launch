@@ -1,0 +1,3 @@
+<launch>
+  <node name="lane_fitting_node" pkg="remocar_lane_fitting" type="lane_fitting_node.py" output="screen"/>
+</launch>
